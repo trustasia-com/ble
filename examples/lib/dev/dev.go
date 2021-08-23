@@ -1,7 +1,7 @@
 package dev
 
 import (
-	"github.com/go-ble/ble"
+	"github.com/trustasia-com/ble"
 )
 
 // NewDevice ...

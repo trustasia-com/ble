@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/linux/hci/cmd"
-	"github.com/go-ble/ble/linux/hci/evt"
-	"github.com/go-ble/ble/linux/hci/socket"
+	"github.com/trustasia-com/ble"
+	"github.com/trustasia-com/ble/linux/hci/cmd"
+	"github.com/trustasia-com/ble/linux/hci/evt"
+	"github.com/trustasia-com/ble/linux/hci/socket"
 	"github.com/pkg/errors"
 )
 

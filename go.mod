@@ -1,15 +1,13 @@
-module github.com/go-ble/ble
+module github.com/trustasia-com/ble
 
-go 1.13
+go 1.16
 
 require (
-	github.com/JuulLabs-OSS/cbgo v0.0.1
-	github.com/mattn/go-colorable v0.1.6 // indirect
-	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
+	github.com/JuulLabs-OSS/cbgo v0.0.2
+	github.com/trustasia-com/ble v0.0.0-20210519192345-b055c211937b
 	github.com/mgutz/logxi v0.0.0-20161027140823-aebf8a7d67ab
-	github.com/pkg/errors v0.8.1
-	github.com/raff/goble v0.0.0-20190909174656-72afc67d6a99
-	github.com/stretchr/testify v1.4.0 // indirect
-	github.com/urfave/cli v1.22.2
-	golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae
+	github.com/pkg/errors v0.9.1
+	github.com/raff/goble v0.0.0-20200327175727-d63360dcfd80
+	github.com/urfave/cli v1.22.5
+	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf
 )
