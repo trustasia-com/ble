@@ -8,10 +8,10 @@ import (
 	"io"
 	"net"
 
+	"github.com/pkg/errors"
 	"github.com/trustasia-com/ble"
 	"github.com/trustasia-com/ble/linux/hci/cmd"
 	"github.com/trustasia-com/ble/linux/hci/evt"
-	"github.com/pkg/errors"
 )
 
 // Conn ...

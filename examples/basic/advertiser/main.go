@@ -9,6 +9,7 @@ import (
 
 	"github.com/trustasia-com/ble"
 	"github.com/trustasia-com/ble/examples/lib/dev"
+
 	"github.com/pkg/errors"
 )
 
